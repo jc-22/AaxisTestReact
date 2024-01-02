@@ -1,0 +1,27 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.just-cont-cent {
+    justify-content: center;
+}
+
+.flex-row-to-column-mobile {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-i-center {
+    align-items: center;
+}
+
+.align-s-center {
+    align-self: center;
+}
+
+@media (max-width: 750px) {
+    .flex-row-to-column-mobile {
+        flex-direction: column;
+    }
+}
